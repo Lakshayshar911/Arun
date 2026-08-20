@@ -17,7 +17,7 @@ const Home = () => {
         </video>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Arun Tour & Travel</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Arun Tour & Travels</h1>
           <p className="text-xl md:text-2xl mb-8">Your Journey, Our Responsibility</p>
           <button 
             onClick={() => navigate('/destination')}
@@ -30,7 +30,7 @@ const Home = () => {
       {/* Popular Destinations */}
       <div className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Popular Destinations</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Popular Destinations in Alwar</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
               <img src="/bala.jpg" alt="Bala Quila" className="w-full h-48 object-cover"/>
@@ -51,7 +51,7 @@ const Home = () => {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
               <img src="/ajab.jpg" alt="City Palace" className="w-full h-48 object-cover"/>
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">City Palace</h3>
+                <h3 className="text-xl font-semibold mb-2">Ajabgarh, Bhangarh</h3>
                 <p className="text-gray-600 mb-4">Royal heritage and architecture</p>
                 <button onClick={() => navigate('/destination')} className="text-blue-600 hover:text-blue-800">Learn More →</button>
               </div>
@@ -78,9 +78,7 @@ const Home = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <h3 className="text-2xl font-semibold mb-4">Tempo Traveller</h3>
               <ul className="space-y-2 text-gray-600 mb-4">
-                <li>• 12-Seater</li>
-                <li>• 15-Seater</li>
-                <li>• 17-Seater</li>
+                <li>• 20-Seater</li>
                 <li>• AC & Non-AC Options</li>
               </ul>
               <button onClick={() => navigate('/tempo-traveller')} className="text-blue-600 hover:text-blue-800">View Tempo →</button>
@@ -190,10 +188,6 @@ const Home = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
-                  <div>
-                    <p className="font-medium text-gray-900">Manoj Yadav</p>
-                    <a href="tel:+919414016858" className="text-blue-600 hover:text-blue-800">+91 9414016858</a>
-                  </div>
                 </div>
                 <div className="flex items-center space-x-3 mt-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
@@ -265,10 +259,6 @@ const Home = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                   </svg>
-                  <div>
-                    <p className="font-medium">Manoj Yadav</p>
-                    <a href="tel:+919414016858" className="text-blue-400 hover:text-blue-300">+91 9414016858</a>
-                  </div>
                 </div>
                 <div className="flex items-center space-x-3">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
@@ -294,7 +284,7 @@ const Home = () => {
             <div>
               <h3 className="text-xl font-semibold mb-4">Address</h3>
               <p className="text-gray-300">
-                Arun Tour & Travel<br />
+                Arun Tour & Travels Alwar<br />
                 Alwar, Rajasthan<br />
                 India
               </p>
@@ -308,7 +298,7 @@ const Home = () => {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Arun Tour & Travel. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Arun Tour & Travels . All rights reserved.</p>
           </div>
         </div>
       </div>
@@ -317,3 +307,4 @@ const Home = () => {
 };
 
 export default Home;
+

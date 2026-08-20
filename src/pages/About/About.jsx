@@ -14,7 +14,7 @@ const About = () => {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Our Story</h2>
               <p className="text-gray-600 leading-relaxed">
                 Arun Tours & Travels was founded in 2010, establishing itself as the Best Tour and Travel Agency in Alwar. 
-                Under the visionary leadership of our CEO, Mr. Arun Sharma, and Mr. Manoj Yadav, our company has achieved 
+                Under the visionary leadership of our CEO, Mr. Arun Sharma, our company has achieved 
                 new heights in the field of Tour and Travel.
               </p>
             </div>
@@ -69,10 +69,7 @@ const About = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
-                    <div>
-                      <p className="font-medium text-gray-900">Manoj Yadav</p>
-                      <a href="tel:+919414016858" className="text-blue-600 hover:text-blue-800">+91 9414016858</a>
-                    </div>
+                    
                   </div>
                   <div className="flex items-center space-x-3">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
@@ -86,8 +83,7 @@ const About = () => {
                   </div>
                   <button 
                     onClick={() => navigate('/booking')}
-                    className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 mt-4 flex items-center justify-center space-x-2"
-                  >
+                    className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 mt-4 flex items-center justify-center space-x-2">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clipRule="evenodd" />
                     </svg>
@@ -104,3 +100,7 @@ const About = () => {
 };
 
 export default About;
+
+
+
+// 

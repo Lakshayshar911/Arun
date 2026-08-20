@@ -3,12 +3,12 @@ import React from 'react';
 const CarHire = () => {
   const cars = [
     { id: 1, image: '/w.jpg', name: 'Innova,Crysta 8 seater', price: '₹16/km' },
-    { id: 2, image: '/w1.jpg', name: 'Swift Dzire', price: '₹11/km' },
-    { id: 3, image: '/w3.jpg', name: 'Ciaz', price: '₹13/day' },
-    { id: 4, image: '/w5.jpg', name: 'Baleno', price: '₹11/km' },
-    { id: 5, image: '/w6.jpg', name: 'Ertiga', price: '₹13/km' },
-    { id: 6, image: '/w8.jpg', name: 'Fronx', price: '₹11/km' },
-    { id: 7, image: '/w9.jpg', name: 'Marrazo', price: '₹11/km' }
+    { id: 2, image: '/w1.jpg', name: 'Swift Dzire', price: '₹10/km' },
+    { id: 3, image: '/w3.jpg', name: 'Ciaz', price: '₹12/day' },
+    { id: 4, image: '/w5.jpg', name: 'Baleno', price: '₹10/km' },
+    { id: 5, image: '/w6.jpg', name: 'Ertiga', price: '₹12/km' },
+    { id: 6, image: '/w8.jpg', name: 'Fronx', price: '₹10/km' },
+    { id: 7, image: '/w9.jpg', name: 'Marrazo', price: '₹15/km' }
   ];
 
   return (
@@ -48,3 +48,13 @@ const CarHire = () => {
 };
 
 export default CarHire;
+
+
+
+
+
+
+
+
+
+//                                                                                                                                         

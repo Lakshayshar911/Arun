@@ -8,7 +8,7 @@ import TempoTraveller from './pages/TempoTraveller/TempoTraveller';
 import About from './pages/About/About';
 import Gallery from './pages/Gallery/Gallery';
 import Booking from './pages/Booking/Booking';  // Add this line
-
+// 
 function App() {
   return (
     <Router>
@@ -29,3 +29,12 @@ function App() {
 }
 
 export default App;
+// 
+
+
+
+
+
+
+
+

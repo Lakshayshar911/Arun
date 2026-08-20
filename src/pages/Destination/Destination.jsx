@@ -19,27 +19,52 @@ const Destination = () => {
   const packages = [
     {
       id: 1,
-      name: "Rajasthan Heritage Tour",
-      price: "₹15,000",
-      duration: "5 Days / 4 Nights",
+      name: "Alwar Sightseeing",
+      price: "₹5,000",
       images: ['/bala.jpg', '/moosi.jpg', '/siliserh.jpg'],
-      description: "Explore the rich heritage of Rajasthan"
+      description: "Explore the rich heritage of Alwar"
     },
     {
       id: 2,
-      name: "Golden Triangle Tour",
-      price: "₹12,000",
-      duration: "4 Days / 3 Nights",
+      name: "Ajabgarh, Bhangarh visit",
+      price: "₹7,000",
       images: ['/ajab.jpg', '/bhan.jpg'],
-      description: "Delhi-Agra-Jaipur tour package"
+      description: "A haunted Fort in Alwar to Visit"
     },
     {
       id: 3,
-      name: "Alwar City Tour",
-      price: "₹5,000",
-      duration: "2 Days / 1 Night",
-      images: ['/sariska.jpg'],
-      description: "Explore the beauty of Alwar"
+      name: "Sariska Tiger Reserve ",
+      price: "₹5,000", 
+      images: ['/sariska.jpg','/str.jpg'],
+      description: "Explore the beauty of Nature in Alwar Forest"
+    },
+    {
+      id: 4,
+      name: "Tijara Jain Temple  ",
+      price: "₹6,000",
+      images: ['Tijara.jpg'],
+      description: "Historical place to Visit near Alwar City"
+    },
+    {
+      id: 5,
+      name: "Pandupol ",
+      price: "₹6,000",
+      images: ['/pandupoal.jpg','/Pandupolmandir.png'],
+      description: "A Hanuman temple located within Sariska National Park"
+    },
+    {
+      id: 6,
+      name: "Khatu Shyam ji",
+      price: "₹9,500",
+      images: ['/shyamji.jpg'],
+      description:"A Travel Package for 20 peoples to travel comfortably"
+    },
+    {
+      id: 7,
+      name: "Khatu Shyam ji & Salasar Balaji " ,
+      price: "15,500",
+      images: ['/shyamji.jpg','/balaji.jpg.webp'],
+      description:"A Travel Package for 20 peoples to travel comfortably"
     }
   ];
 
@@ -94,3 +119,13 @@ const Destination = () => {
 };
 
 export default Destination;
+
+  
+  
+  
+  
+  
+  
+  
+  
+  // 
